@@ -1,0 +1,87 @@
+Linguistic Analysis of Speech Patterns, characteristic for mental disorders
+import bs4
+import bs4
+Table of Contents:
+1.Introduction
+2. Hannibal Lecter
+3. Patrick Bateman
+4. Conclusion
+print("-----------------------------------------------------------------------------------")
+-----------------------------------------------------------------------------------
+1.INTRODUCTION
+
+Speech patterns is a representation of our manner of expression, our style of speaking, and somehow, a representation of the environment we live in, especially considering Chomsky’s approach to language, described in his book Syntactic Structures.
+
+Although all of us have a certain style of speaking, some people who suffer from certain mental disorders present a feature, which could be considered as a sign of their condition. In this essay, I am going to present and describe some of the most characteristic speech patterns, represented by famous psychopats described in literature from the thriller genre.
+
+2.Hannibal Lecter
+
+ent)
+import requests
+page = requests.get("https://www.imdb.com/title/tt0102926/plotsummary")
+# print(page.content)
+First book, which I would like to describe is considered to be one of the true classic in the genre of thriller. It is The Silence of the Lambs by Thomas Harris. In this book, the main character, a young student named Clarice Starling is asked to help with the investigation concerning crimes done by a murderer Buffalo Bill. In order to find any kind of evidence, Starling goes to a prison, in order to question another murderer - doctor Hannibal Lecter. Lecter is a well - educated man, who earned a doctorate in psychiatry and (before being sentenced for his crimes) was considered to be one of the best in his field. His taste is quite sophisticated, due to the variety of expensive and exquisite dishes he cooks and his love for classical music and art. Besides that, he really enjoyed cooking, which included also cooking his victims. His cold blooded murders were the reason why he went to jail. However, his crimes, although scary, are not the topic of that essay. Hannibal’s language and the way he speaks resembles his character - his speech is sophisticated, usually includes vocabulary from foreign languages, especially French and Italian, and, generally speaking - it’s very posh;
+
+First principles, Clarice. Simplicity. Read Marcus Aurelius. Of each particular thing ask: what is it in itself? What is its nature? What does he do, this man you seek?
+
+>First principles, Clarice. Simplicity. Read Marcus Aurelius. Of each particular thing ask: what is it in itself? What is its nature? What does he do, this man you seek
+I see. I myself cannot. You use Evyan skin cream, and sometimes you wear L'Air du Temps, but not today.
+
+s
+from bs4 import BeautifulSoup 
+content = BeautifulSoup(page.content,'html.parser')
+paragraphs = content.find_all('p')
+print(paragraphs[9:11])
+[]
+From the quotes cited above, what we can conclude from Hannibal’s style of speaking is that he represents some sass in his speech, especially when it comes to bragging about his intellectual achievements and/or everyday routines. It can suggests some mental problems, which could be unknowingly represented by Hannibal’s speech.
+
+The diagnosis of Lecter has been described in a paper titled Hannibal Lecter: the Honey in the Lion’s Mouth by Bettina Gregory.
+
+Gregory suggests that Hannibal might suffer from PTS, which is a posttraumatic stress disorder caused by a traumatic childhood. However, that is not only one diagnosis he received. Other proposed diagnosis are: Wendigo psychosis, which is a disorder which is strongly related to cannibalism, but not as a mean to survive, but as a way of enjoying ‘food’ in general,OCD, which is an obssesive compulsive disorder, characterised by obssessive thoughts about something and certain behaviours triggered by an external factor, and Antisocial Personality Disorder, which is a disorder in which a person does not show empathy for others, lack of remorse, and strong tendencies to manipulate and lie.
+
+According to inc.com, we can find 9 ways of speaking, which are characteristic for sociopaths (people suffering from antisocial personality disorder), which are:
+
+ways_of_speaking = ['speaking in past tense', 'convincing body language', 'lack of emotional dispension in their speech', 'charming way of speaking','slow and quiet manner of speaking', 'perception of life as a cycle of cause and effect','attention focused on basic needs and everyday rituals','more than usual use of hedges and discourse markers','great storytelling skills']
+Considering the ways mentioned above, we can spot at least some of them in two sentences said by Hannibal, which are cited above, due to the fact that in the second sentence, he describes his beauty routine, which could be an element of his everyday, basic routine. Moreover, in the first one, by mentioning Marcus Aurelius, he probably tried to show off in front of a young policewoman, in order to gain her trust and sympathy.
+
+2.Patrick Bateman
+Other case, which I would like to analyse is Patrick Bateman from another classic in the genre of thrillers, which is titled American Psycho.
+
+Patrick Bateman is a young and successful lawyer, who lives a perfect lifestyle. However, he has a dark secret - namely, a bunch of tapes in his wardrobe, and on each of those tapes are murders he commited. Every crime he commits is driven by his anger, especially one, when he kills his co-worker Paul Allen, only because of his jellousy. Patrick’s way of speaking (as well as Hannibal’) was masterly played by Christian Bale (the role of Hannibal was played by Anthony Hopkins in Silence of the Lambs and by Mads Mikkelsen in TV series titled Hannibal). Similarly to Lecter, Bateman’s taste is rather extravagant - he often wears luxorious and designer clothes, listens to music almost obessively and eats extravagant and gourmet dishes at quite expensive restaurants. In contrast to Hannibal, however, he speaks truly and candidly about how he feels and what happens to him, when he reaches his breakdown:
+
+!sir Anthony Hopkins as Hannibal Lecter
+
+!Mads Mikkelsen as Hannibal Lecter
+
+!Christian Bale as Patrick Bateman
+
+I have all the characteristics of a human being: blood, flesh, skin, hair, but not a single, clear, identifiable emotion, except for greed and disgust. Something horrible is happening inside of me and I don’t know why. My nightly bloodlust has overflown into my days.
+
+Although he expressed his emotions candidly, that was unfortunately one of not - so - many occasions, where Bateman truly and not in a sarcastic tone spoke about his controversial hobbies. Another example shows how he mocked that his answer to a club bouncer was understood as a sarcasm, but actually he spoke the truth:
+
+Club Patron: So, what do you do?
+
+Patrick Bateman: I;m into, uh, well, murders and executions, mostly.
+
+Club Patron: [sarcastically] do you like it?
+
+Patrick Bateman: Well, most guys I know who are in Mergers and Acquisitions really don’t like it. But I like to dissect girls. Did you know I’m utterly insane?
+
+The other example, which displays Patrick way of speaking is in the situation, where he invited drunk Paul Allen to his apartment. This dialogue happend just before the murder of Paul Allen:
+
+Patrick Bateman: Do you like Huey Lewis and The News?
+
+Paul Allen: They’re OK.
+
+Patrick Bateman: Their early work was a little too new wave for my tastes, but when Sports came out in ‘83, I think they really came into their own, commercially and artistically. The whole album has a clear, crisp sound, and a new sheen of consummate professionalism that really gives the songs a big boost. He’s been compared to Elvis Costello, but I think Huey has a far more bitter, cynical sense of humor.
+
+Here is the link to the iconic scene with Patrick's speech. Viewer discretion is advised. This clip is drastic and it contains blood and murder. Please, consider it before watching.
+
+Patrick Bateman’s speech also displays characteristic traits of sociopaths, but also of OCD, especially considering his description of his morning routine:
+
+I live in the American Gardens building on West 81st street. My name is Patrick Bateman. I’m 27 years old. I believe in taking care of mysel, and a balanced diet and rigorous exercise routine. In the morning, if my face is a little puffy, I will put on an ice pack while doing my stomach crunches. I can do a thousand now. After I remove the ice pack, I use a deep pore cleanser lotion. In the shower, I use a water activated gel cleanser. Then a honey almond body scrub. And on the face, an exfoliating gel scrub. Then apply an herb mint facial mask, which I leave on for 10 minutes while I prepare the rest of my routine. I always use an aftershave lotion with little or no alcohol, because alcohol dries your face out and makes you look older. Then moisturizer, then an anti-aging eye balm followed by a final moisturizing protective lotion. There is an idea of a Patrick Bateman, some kind of abstraction, but there is no real me. Only an entity, something illusory. And though I can hide my cold gaze, and you can shake my hand and feel flesh gripping yours and maybe you can even sense our life styles are probably comparable, I simply am not there.
+
+Patrick’s way of describing his morning routine contains a detailed description of his basic morning. What is unusual, is the fact that he mentions exactly what kind of products he uses and exact times in which he applies some of his skincare products. Moreover, his claim that there is no real Patrick, may suggest that his complicated routine may be some kind of preparation process for another day of being someone else.
+
+4.CONCLUSION
+To conclude, I would like to mention that I am not a qualified psychologist or psychiatrist, hence I do not have a proper knowledge to diagnose people. This essay is only a form of speculation which is focused on two of many of my favourite characters from two of a bunch of my favourite books. However, I do believe that there could be some ways in which we can spot some characteristics of speech, which could be associated with certain mental disorders, which would eventually lead to speeding up the process of diagnosing patients.
